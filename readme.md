@@ -22,6 +22,7 @@ Checkout this repository and the related repositories. The related repositories 
 When all packages are in the Python path, you can install the package by running:
 
 ```pip install -e .```
+This installs the package in `editable` mode, so it will not actually be copied into your environment but linked instead.
 
 ## Usage
 See `notebooks` for examples on how to use the package.
